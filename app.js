@@ -151,7 +151,7 @@ app.post("/formapplied",(req,res)=>{
           if(err) throw err;
           else
               console.log("data inserted");
-              return res.redirect('/applicants');
+              return res.redirect('/formsubmitted');
               
       };
   });
